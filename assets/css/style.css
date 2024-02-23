@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+
+html, body {
+    font-size: 10px;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #000000;
+    color: #ffffff;
+}
+
+header{
+    width: 100vw;
+}
+
+.raleway-light {
+    font-family: "Raleway", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-style: normal;
+}
+
+.raleway-medium {
+    font-family: "Raleway", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+}
+
+.banner{
+    width: 100vw;
+}
+
+.desc-section{
+    display: flex;
+    justify-content: center;
+    padding: 4.5rem 0 6.6rem 0; 
+    gap: 106px;  
+}
+
+.desc-section > .desc-info {
+    width: 475px;
+}
+
+.desc-section p {
+    font-family: "Raleway", sans-serif;
+    font-weight: 300;
+    font-size: 1.6rem;
+}
+
+.desc-section > img{
+    width: 400px;
+}
+
+h1{
+    font-size: 5rem;
+    text-align: center;
+    font-family: "Raleway", sans-serif;
+    font-weight: 500px;
+}
+
+h2{
+    font-size: 4rem;
+    font-family: "Raleway", sans-serif;
+    font-weight: 500px;
+    text-align: center;
+}
+
+.icons-section{
+    background-color: #1E1A13;
+    padding: 7.5rem;
+}
+
+.icons{
+    display: flex;
+    justify-content: center;
+    gap: 18rem;
+    font-size:  2.4rem;
+}
+
+.icons div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.icons i{
+    font-size:  5rem;
+}
+
+.gallery-section{
+    display: flex;
+    justify-content: center;
+    height: 212px;
+    gap: 2rem;
+    padding: 73px;
+}
+
+.gallery-section img{
+    width: 316px;
+}
+
+footer{
+    font-size: 1.6rem;
+    text-align: center;
+    background-color: #1E1A13;
+    padding: 39px;
+}
+
+footer a{
+    color: #ffffff;
+    text-decoration: none;
+}
